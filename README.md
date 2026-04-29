@@ -55,7 +55,7 @@ I configured a static IP address on DC01 to ensure reliable communication for do
 
 ## Step 3: Installing Active Directory Domain Services
 
-I installed the Active Directory Domain Services role to enable domain management functionality.
+I installed the Active Directory Domain Services role on DC01. This allows the server to manage domain users, groups, computers, authentication, and security policies in the lab environment.
 
 ![AD DS Installed](screenshots/03-ad-ds-installed.png)
 
