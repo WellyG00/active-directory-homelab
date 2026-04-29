@@ -4,7 +4,7 @@
 
 This project documents the setup of a Windows Server 2022 Active Directory home lab using VMware. The lab simulates a small business domain environment with a domain controller, Windows client machine, user accounts, group permissions, DNS, DHCP, Group Policy, and troubleshooting scenarios.
 
-The goal of this project is to demonstrate hands-on IT support skills, including user account management, domain authentication, basic network services, endpoint configuration, and structured troubleshooting.
+The goal of this project is to demonstrate hands on IT support skills, including user account management, domain authentication, basic network services, endpoint configuration, and structured troubleshooting.
 
 ## Lab Objectives
 
