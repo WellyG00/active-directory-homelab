@@ -32,7 +32,7 @@ The goal of this project is to demonstrate hands on IT support skills, including
 
 | Device   | IP Address      | DNS Server      |
 |----------|----------------|-----------------|
-| DC01     | 192.168.1.10   | 192.168.1.10    |
+| DC01     | 192.168.29.128 | 192.168.29.128  |
 | CLIENT01 | DHCP Assigned  | 192.168.1.10    |
 
 ---
