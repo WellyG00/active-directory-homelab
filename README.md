@@ -39,7 +39,7 @@ The goal of this project is to demonstrate hands on IT support skills, including
 
 ## Step 1: Virtual Machine Setup
 
-I created two virtual machines in VMware to simulate a small business environment. DC01 acts as the domain controller and CLIENT01 acts as a user workstation.
+I created two virtual machines in VMware to simulate a small business IT environment. The first VM, DC01, runs Windows Server 2022 and acts as the domain controller. The second VM, CLIENT01, runs Windows 10/11 and acts as an end-user workstation that will join the domain.
 
 ![VM Setup](screenshots/01-vm-setup.png)
 
