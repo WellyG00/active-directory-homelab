@@ -193,7 +193,7 @@ This step demonstrates how a client machine can join a domain and allow users to
 
 ## Step 11:  Group Policy Configuration
 
-I created and applied a Group Policy Object to restrict access to Control Panel and PC settings for domain users. I then updated Group Policy on the client machine and confirmed that the restriction was successfully applied.
+I created and applied a Group Policy Object to restrict access to the Control Panel and PC settings for domain users. On the CLIENT01 machine, I logged in as the domain user welly and ran the gpupdate /force command to immediately apply the updated policy. I then verified the result by attempting to access the Control Panel and confirmed that access was successfully blocked for the user.
 
 ![GPO](screenshots/22-gpo-control-panel-restriction.png)
 
