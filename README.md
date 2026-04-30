@@ -179,7 +179,15 @@ After joining the domain, I logged into CLIENT01 using a domain user account (ho
 
 This step demonstrates how a client machine can join a domain and allow users to log in using centralized credentials, which is standard in real business environments.
 
+![Client DNS Settings](screenshots/16-client-dns-settings.png)
+
+![Domain Join Window](screenshots/17-client-domain-join.png)
+
 ![Client Joined](screenshots/18-client-joined-domain.png)
+
+![Domain Login](screenshots/19-domain-login-screen.png)
+
+![User Verification](screenshots/20-domain-user-verified.png)
 
 ---
 
