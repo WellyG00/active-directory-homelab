@@ -117,7 +117,13 @@ I created Organizational Units (OUs) to keep the domain organized, including IT,
 
 ## Step 6: User and Group Management
 
-I created domain users and groups and assigned group memberships to simulate access control.
+## Step 6: User and Group Management
+
+I created multiple domain users and security groups within specific Organizational Units (IT, Sales, and HR) in Active Directory. 
+
+Users were organized based on department to reflect a real world business structure. I also created security groups such as IT Support and Sales Users, and assigned users to these groups to simulate access control and permission management.
+
+This step demonstrates hands on experience with account creation, group based access control, and basic identity management tasks commonly performed in Tier 1 IT support roles.
 
 ![IT Users](screenshots/07a-it-users.png)
 ![Sales Users](screenshots/07b-sales-users.png)
