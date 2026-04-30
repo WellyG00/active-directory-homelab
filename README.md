@@ -157,7 +157,13 @@ I verified that DNS was installed and configured with the homelab.local forward 
 
 ## Step 9: DHCP Configuration
 
-I configured DHCP to automatically assign IP addresses to client machines.
+I installed and configured the DHCP Server role on DC01 to automatically assign IP addresses to client computers in the domain environment.
+
+A new IPv4 DHCP scope was created for the homelab network. The scope assigns client IP addresses from 192.168.1.100 to 192.168.1.200 using a 255.255.255.0 subnet mask.
+
+The DHCP options were configured with a default gateway of 192.168.1.1, DNS server of 192.168.1.10, and domain name of homelab.local.
+
+This setup simulates how businesses automatically manage IP address assignments for workstations instead of manually configuring every device.
 
 ![DHCP](screenshots/15-dhcp-scope.png)
 
