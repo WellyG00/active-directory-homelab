@@ -138,9 +138,12 @@ I configured password and account lockout policies through Group Policy Manageme
 
 The password policy was set as follows: password history of 5 remembered passwords, maximum password age of 32 days, minimum password age of 1 day, and a minimum password length of 8 characters.
 
-These settings help simulate real world business security practices by preventing password reuse, enforcing regular password changes, and requiring stronger credentials.
+The account lockout policy was configured with an account lockout duration of 5 minutes, a threshold of 5 invalid logon attempts, and the lockout counter resets after 5 minutes.
+
+These settings help simulate real world business security practices by preventing password reuse, enforcing regular password changes, and protecting against brute force login attempts.
 
 ![Password Policy](screenshots/10-password-policy.png)
+![Account Lockout Policy](screenshots/11-account-lockout-policy.png)
 
 ---
 
