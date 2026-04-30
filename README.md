@@ -191,15 +191,7 @@ This step demonstrates how a client machine can join a domain and allow users to
 
 ---
 
-## Step 11: Domain Login
-
-I logged into the client machine using a domain account and verified authentication.
-
-![Login](screenshots/19-domain-user-login.png)
-
----
-
-## Step 12: Group Policy
+## Step 11: Group Policy
 
 I created and applied a Group Policy Object to enforce user restrictions and verified it on the client machine.
 
