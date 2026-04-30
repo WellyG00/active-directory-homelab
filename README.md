@@ -195,7 +195,7 @@ This step demonstrates how a client machine can join a domain and allow users to
 
 I created and applied a Group Policy Object to enforce user restrictions and verified it on the client machine.
 
-![GPO](screenshots/21-gpo-created.png)
+![GPO](screenshots/22-gpo-control-panel-restriction.png)
 
 ---
 
