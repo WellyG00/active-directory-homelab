@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project documents the setup of a Windows Server 2022 Active Directory home lab using VMware. The lab simulates a small business domain environment with a domain controller, Windows client machine, user accounts, group permissions, DNS, DHCP, Group Policy, and troubleshooting scenarios.
+This project documents the setup of a Windows Server 2025 Active Directory home lab using VMware. The lab simulates a small business domain environment with a domain controller, Windows client machine, user accounts, group permissions, DNS, DHCP, Group Policy, and troubleshooting scenarios.
 
 The goal of this project is to demonstrate hands on IT support skills, including user account management, domain authentication, basic network services, endpoint configuration, and structured troubleshooting.
 
@@ -23,7 +23,7 @@ The goal of this project is to demonstrate hands on IT support skills, including
 
 | Device   | OS                    | Purpose                          |
 |----------|----------------------|----------------------------------|
-| DC01     | Windows Server 2022  | Domain Controller (AD, DNS, DHCP) |
+| DC01     | Windows Server 2025  | Domain Controller (AD, DNS, DHCP) |
 | CLIENT01 | Windows 10/11        | Domain Client Machine             |
 
 ---
@@ -39,7 +39,7 @@ The goal of this project is to demonstrate hands on IT support skills, including
 
 ## Step 1: Virtual Machine Setup
 
-I created two virtual machines in VMware to simulate a small business IT environment. The first VM, DC01, runs Windows Server 2022 and acts as the domain controller. The second VM, CLIENT01, runs Windows 10/11 and acts as an end-user workstation that will join the domain.
+I created two virtual machines in VMware to simulate a small business IT environment. The first VM, DC01, runs Windows Server 2025 and acts as the domain controller. The second VM, CLIENT01, runs Windows 10/11 and acts as an end-user workstation that will join the domain.
 
 ![VM Setup](screenshots/01-vm-setup.png)
 
