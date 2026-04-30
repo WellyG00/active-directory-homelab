@@ -86,6 +86,7 @@ This immediately restored internet access and confirmed the issue was DNS-relate
 Reconfigured the DNS back to the domain controller:
 
 192.168.29.128
+After reapplying the configuration, DNS resolution began working correctly.
 
 ---
 
