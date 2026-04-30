@@ -119,7 +119,9 @@ I created Organizational Units (OUs) to keep the domain organized, including IT,
 
 I created domain users and groups and assigned group memberships to simulate access control.
 
-![Users](screenshots/07-domain-users-created.png)
+![IT Users](screenshots/07a-it-users.png)
+![Sales Users](screenshots/07b-sales-users.png)
+![HR Users](screenshots/07c-hr-users.png)
 
 ![Groups](screenshots/08-domain-groups-created.png)
 
