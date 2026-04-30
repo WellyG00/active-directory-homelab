@@ -63,7 +63,7 @@ I installed the Active Directory Domain Services role on DC01. This allows the s
 
 ## Step 4: Domain Controller Setup
 
-I promoted the server to a domain controller and created the domain homelab.local.
+I promoted DC01 to a domain controller and created a new Active Directory forest named homelab.local. This allows the lab to function as a centralized domain environment where users and computers can be managed through Active Directory.
 
 ![Domain Setup](screenshots/04-domain-controller-promotion.png)
 
