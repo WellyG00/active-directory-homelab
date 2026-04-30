@@ -117,8 +117,6 @@ I created Organizational Units (OUs) to keep the domain organized, including IT,
 
 ## Step 6: User and Group Management
 
-## Step 6: User and Group Management
-
 I created multiple domain users and security groups within specific Organizational Units (IT, Sales, and HR) in Active Directory. 
 
 Users were organized based on department to reflect a real world business structure. I also created security groups such as IT Support and Sales Users, and assigned users to these groups to simulate access control and permission management.
@@ -136,7 +134,11 @@ This step demonstrates hands on experience with account creation, group based ac
 
 ## Step 7: Password Policy
 
-I configured password and account policies using Group Policy to enforce security requirements.
+I configured password and account lockout policies through Group Policy Management to enforce stronger security controls in the domain environment.
+
+The password policy was set as follows: password history of 5 remembered passwords, maximum password age of 32 days, minimum password age of 1 day, and a minimum password length of 8 characters.
+
+These settings help simulate real world business security practices by preventing password reuse, enforcing regular password changes, and requiring stronger credentials.
 
 ![Password Policy](screenshots/10-password-policy.png)
 
