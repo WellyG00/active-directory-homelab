@@ -112,9 +112,13 @@ I promoted DC01 to a domain controller and created a new forest named homelab.lo
 I created Organizational Units (OUs) including:
 
 IT
+
 Sales
+
 HR
+
 Workstations
+
 Servers
 
 These OUs help organize resources and allow targeted Group Policy application.
